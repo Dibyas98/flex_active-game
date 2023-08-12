@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+}
+
+
+.profile img{
+    border-radius: 130px;
+}
+.side{
+    /* background-color: red; */
+    background: linear-gradient(to top, #ffffff5b, #9cebdc);
+    width: 500px;
+    height:730px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    border-radius: 20px;
+
+}
+span{
+    color: #8497A9;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile h5{
+    color: #6683A0;
+}
+.profile h3{
+    color: #8497A9;
+    font-size: 2rem;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.advert{
+    width: 254px;
+    height: 125px;
+    background: #7EC8BB ;
+    /* border: 2px; */
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.advert h3{
+    
+    overflow: visible;
+    color: #C2DEDD;
+    font-size: 1.5rem;
+    
+}
+.nav_side{
+    display: flex;
+    gap: 10px;
+}
+.adbox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.nav_side h2{
+    color: #6683A0;
+}
+.right{
+
+    width: 1000px;
+    /* justify-content: space-between; */
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    height:730px;
+    /* background-color: red; */
+    gap: 10px;
+    background: linear-gradient(to left, #4784aa, #e4e5e6);
+}
+.game{
+    font-size: 4rem;
+    color: #6683A0;
+    font-weight: bolder;
+}
+.level{
+    width: 527px;
+    height: 24px;
+    border-radius: 40px;
+    background-color: #E5F9F7;
+}
+.container{
+    width: 829px;
+    height:150px;
+    border: 2px solid beige;
+    /* padding-top: 18px; */
+    padding-left: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(231,250,247);
+    border-radius: 40px;
+}
+.container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 26px;
+    
+}
+.active{
+    margin: 10px;;
+}
+.two{
+    height: 15px;
+    width: 277px;
+    background-color: #90E4DE;
+}
+.rank{
+    position: relative;
+    bottom: 25px;
+}
